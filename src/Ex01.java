@@ -10,11 +10,6 @@ public class Ex01 {
 		System.out.println("힘드네요");
 		
 		System.out.println("나만의 작업 커밋");
-<<<<<<< HEAD
-		
-		System.out.println("branch 팀장 커밋");
-=======
->>>>>>> 8927768bb68199b62fe39a65a73eb4a9c4f60430
 
 		System.out.println("branch 팀원 박준식 커밋");
 		

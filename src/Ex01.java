@@ -14,6 +14,7 @@ public class Ex01 {
 		System.out.println("branch 팀원 박준식 커밋");
 		System.out.println("branch 팀원 김재효 커밋");
 		System.out.println("branch 팀원 조민석 커밋");
+		System.out.println("branch 팀장 오승철 커밋");
 	}
 
 }

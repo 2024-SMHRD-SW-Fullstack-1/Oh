@@ -10,7 +10,10 @@ public class Ex01 {
 		System.out.println("힘드네요");
 		
 		System.out.println("나만의 작업 커밋");
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 7c2323e32601a6c5cd05637e748df0c010f03694
 		
 		
 

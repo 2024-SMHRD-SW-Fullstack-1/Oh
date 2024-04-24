@@ -13,7 +13,7 @@ public class Main {
 		
 		System.out.println("====== 포켓몬스터 ======");
 		while (true) {
-			System.out.println("[1] 회원가입 \t [2] 로그인 \t [3] 회원탈퇴 \t[4] 종료");
+			System.out.println("[1] 회원가입 \t [2] 로그인 \t [3] 회원탈퇴 \t [4] 종료");
 			
 			int choice = sc.nextInt();
 			

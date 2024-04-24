@@ -3,6 +3,7 @@ package Pokemon;
 import java.util.List;
 
 public class Battle {
+	// 살려주세요
 	private Pokemon playerPokemon;
 	private Pokemon opponentPokemon;
 	private String skillType;

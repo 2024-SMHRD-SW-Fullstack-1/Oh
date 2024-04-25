@@ -46,20 +46,16 @@ public class TypeChart {
 
 	}
 
-	public static double getDamageMultiplier(String skillType, List<String> defenderTypes) {
+	public static double getDamageMultiplier(String skillType, String defenderType) {
 		double damageMultiplier = 1.0;
 
-		// 모든 방어 포켓몬의 타입에 대해 반복합니다.
-		for (String defenderType : defenderTypes) {
-			Map<String, Double> attackerChart = typeChart.get(skillType);
-			if (attackerChart != null) {
-				Double multiplier = attackerChart.get(defenderType);
-				if (multiplier != null) {
-					damageMultiplier *= multiplier;
-				}
+		Map<String, Double> skillChart = typeChart.get(skillType);
+		if (skillChart != null) {
+			Double multiplier = skillChart.get(defenderType);
+			if (multiplier != null) {
+				damageMultiplier *= multiplier;
 			}
 		}
-
 		return damageMultiplier;
 	}
 
